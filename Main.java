@@ -45,6 +45,10 @@ class Main{
         deck.bubbleSort();
         System.out.println("\nBubble Sorted Deck:\n" + deck);
 
+        deck.shuffle();
+        System.out.println("\nShuffled Deck:\n" + deck);
+        deck.insertionSort();
+        System.out.println("\nInsertion Sorted Deck:\n" + deck);
     }
 
     public static void printDeck(Card[] cards) {
