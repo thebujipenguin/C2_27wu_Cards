@@ -151,7 +151,7 @@ public class Deck{
 
             while (j >= 0 && cards[j].compareTo(key)>0) {  // if card 2 is lower than card 1
                 cards[j + 1] = cards[j]; // replace it
-                j = j - 1;=// iterate down
+                j = j - 1;// iterate down
             }
             cards[j + 1] = key; // card 2 becomes card 1
         }
